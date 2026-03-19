@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\DELL\\\\agentic-ai\\\\session-3-Prompt_Injection\" && venv/Scripts/python production_error.py 2>&1)",
+      "Bash(python:*)",
+      "Bash(venv/Scripts/pip list:*)",
+      "Bash(echo \"GOOGLE: $GOOGLE_API_KEY\")",
+      "Bash(echo \"GEMINI: $GEMINI_API_KEY\")",
+      "Bash(echo \"OPENAI: $OPENAI_API_KEY\")",
+      "Bash(venv/Scripts/python app.py)"
+    ]
+  }
+}

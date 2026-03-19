@@ -1,0 +1,15 @@
+create a agentic program using langgraph and openai as below:
+There is one supervisor agent which will check the userinput and then handover to the 
+required agent.
+below are the agents available:
+FinanceAgent
+TravelAgent
+ShipmentAgent
+SearchAgent
+GeneralAgent
+TaxAgent
+If multiple questions are asked, iterate on each and provide reply
+Use skills file where ever required
+use logging function to show handoffs to next agent.
+create app.py to run the main program
+give a prompt 'enter input'  to enter input when program is run
